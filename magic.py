@@ -102,14 +102,19 @@ class Match(object):
 
 class Magic(object):
 
-    def __init__(self, data):
-        self.data = data
+    def __init__(self, param, is_file=False):
+        if is_file:
+            with open(param, mode='rb') as f:
+                self.data = f.read()
+        else:
+            self.data = param
+
         self.extension = 'Unknown'
         self.mime = 'Unknown'
         self.doc = 'Unknown'
 
-        if self.istext(data):
-            if '<?xml' in data[:5].decode(errors='ignore'):
+        if self.istext(self.data):
+            if '<?xml' in self.data[:5].decode(errors='ignore'):
                 self.extension = '.xml'
                 self.mime = 'xml/plain'
                 self.doc = 'XML document text'
@@ -120,7 +125,7 @@ class Magic(object):
             self.doc = 'textual file'
             return
 
-        m = Match(data)
+        m = Match(self.data)
         for mtd in dir(m):
             if mtd.startswith('is_'):
                 result = getattr(m, mtd)()
