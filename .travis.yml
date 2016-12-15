@@ -8,10 +8,14 @@ python:
   - "nightly" # currently points to 3.7-dev
 
 install:
-  - pip install codecov
+  - pip install codeclimate-test-reporter
 
 script:
   - coverage run test.py
 
 after_success:
-  - codecov
+  - codeclimate-test-reporter
+
+addons:
+    code_climate:
+        repo_token: cefb790632e41dfd61e92750add14cd9797b932186d47dcb29ee0e682d4df2d7 
