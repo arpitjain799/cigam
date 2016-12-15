@@ -2,7 +2,7 @@
 magic
 ===================
 
-|unix_build| |windows_build| |coverage| 
+|unix_build| |windows_build| |coverage| |CodeClimate| 
 
 .. |unix_build| image:: https://travis-ci.org/mikusjelly/magic.svg?branch=master
     :target: https://travis-ci.org/mikusjelly/magic
@@ -15,3 +15,7 @@ magic
 .. |coverage|   image:: https://codeclimate.com/github/mikusjelly/magic/badges/coverage.svg
    :target: https://codeclimate.com/github/mikusjelly/magic/coverage
    :alt: Test Coverage
+
+.. |CodeClimate| image:: https://codeclimate.com/github/mikusjelly/magic/badges/gpa.svg
+   :target: https://codeclimate.com/github/mikusjelly/magic
+   :alt: Code Climate
