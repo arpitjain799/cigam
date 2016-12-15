@@ -12,9 +12,8 @@ magic
     :target: https://ci.appveyor.com/project/mikusjelly/magic
     :alt: Build status of the master branch on Windows
     
-.. |coverage|   image:: https://codeclimate.com/github/mikusjelly/magic/badges/coverage.svg
-   :target: https://codeclimate.com/github/mikusjelly/magic/coverage
-   :alt: Test Coverage
+.. |coverage| image:: https://codecov.io/gh/mikusjelly/magic/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/mikusjelly/magic
 
 .. |CodeClimate| image:: https://codeclimate.com/github/mikusjelly/magic/badges/gpa.svg
    :target: https://codeclimate.com/github/mikusjelly/magic
