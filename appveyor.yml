@@ -1,6 +1,10 @@
 # https://ci.appveyor.com/project/mikusjelly/magic
 build: false
 
+branches:
+  only:
+    - master
+
 environment:
   matrix:
     - PYTHON: "C:/Python27"
