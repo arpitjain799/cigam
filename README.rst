@@ -17,7 +17,8 @@ magic
     :target: https://codeclimate.com/github/mikusjelly/magic
     :alt: Code Climate
 
-.. |coverage| image:: https://codecov.io/gh/mikusjelly/magic/branch/master/graph/badge.svg 
-    :target: https://codecov.io/gh/mikusjelly/magic
-    :alt: Coverage
+.. |coverage| image:: https://codeclimate.com/github/mikusjelly/magic/badges/coverage.svg
+   :target: https://codeclimate.com/github/mikusjelly/magic/coverage
+   :alt: Test Coverage
+
     
