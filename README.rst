@@ -2,7 +2,8 @@
 magic
 ===================
 
-|unix_build| |windows_build| |coverage| |CodeClimate| 
+|unix_build| |windows_build| |CodeClimate| |coverage| 
+
 
 .. |unix_build| image:: https://travis-ci.org/mikusjelly/magic.svg?branch=master
     :target: https://travis-ci.org/mikusjelly/magic
@@ -11,10 +12,12 @@ magic
 .. |windows_build|  image:: https://ci.appveyor.com/api/projects/status/qtxwv77rm34abyu2
     :target: https://ci.appveyor.com/project/mikusjelly/magic
     :alt: Build status of the master branch on Windows
-    
-.. |coverage| image:: https://codecov.io/gh/mikusjelly/magic/branch/master/graph/badge.svg
-    :target: https://codecov.io/gh/mikusjelly/magic
 
 .. |CodeClimate| image:: https://codeclimate.com/github/mikusjelly/magic/badges/gpa.svg
-   :target: https://codeclimate.com/github/mikusjelly/magic
-   :alt: Code Climate
+    :target: https://codeclimate.com/github/mikusjelly/magic
+    :alt: Code Climate
+
+.. |coverage| image:: https://codecov.io/gh/mikusjelly/magic/branch/master/graph/badge.svg 
+
+    
+    
