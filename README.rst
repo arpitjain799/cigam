@@ -18,6 +18,6 @@ magic
     :alt: Code Climate
 
 .. |coverage| image:: https://codecov.io/gh/mikusjelly/magic/branch/master/graph/badge.svg 
-
-    
+    :target: https://codecov.io/gh/mikusjelly/magic
+    :alt: Coverage
     
