@@ -1,0 +1,16 @@
+# https://ci.appveyor.com/project/mikusjelly/magic
+build: false
+
+environment:
+  matrix:
+    - PYTHON: "C:/Python27"
+    - PYTHON: "C:/Python35"
+
+init:
+  - "ECHO %PYTHON%"
+  - ps: "ls C:/Python*"
+
+install:
+
+test_script:
+  - "%PYTHON%/python.exe test.py"
