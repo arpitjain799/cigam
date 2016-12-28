@@ -7,9 +7,9 @@ if __name__ == "__main__":
         long_description = f.read()
 
     setup(
-        name="magic",
+        name="mini-magic",
         version="0.0.3",
-        description=("magic"),
+        description=("mini-magic"),
         py_modules=["magic"],
         keywords="",
         license="MIT",
