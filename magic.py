@@ -73,7 +73,7 @@ class Match(object):
         if b'45786966' == bytes:
             return ('.jpg', 'jpg', 'image/jpeg, Exif', 'JPEG images')
         if b'4a464946' == bytes:
-            return ('.jpg', 'image/jpeg, JFIF', 'JPEG images')
+            return ('.jpg', 'jpg', 'image/jpeg, JFIF', 'JPEG images')
         return ('.jpg', 'jpg', 'image/jpeg', 'JPEG images')
 
     def is_png(self):
@@ -99,8 +99,8 @@ class Match(object):
 
 class Magic(object):
 
-    def __init__(self, param, is_data=False):
-        if is_data:
+    def __init__(self, param):
+        if isinstance(param, bytes):
             self.data = param
         else:
             with open(param, mode='rb') as f:
