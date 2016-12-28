@@ -22,6 +22,6 @@ if __name__ == "__main__":
 
         author="mikusjelly",
         author_email="mikusjelly@gmail.com",
-        url="https://github.com/mikusjelly/magic",
+        url="https://github.com/mikusjelly/mini-magic",
 
     )
