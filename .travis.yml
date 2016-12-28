@@ -1,7 +1,6 @@
 language: python
 
 python:
-  - "2.7"
   - "3.5"
   - "3.5-dev" # 3.5 development branch
   - "3.6-dev" # 3.6 development branch
@@ -16,7 +15,7 @@ script:
 
 addons:
     code_climate:
-        repo_token: cefb790632e41dfd61e92750add14cd9797b932186d47dcb29ee0e682d4df2d7 
+        repo_token: cefb790632e41dfd61e92750add14cd9797b932186d47dcb29ee0e682d4df2d7
 
 after_sucess:
   - coverage run test.py
