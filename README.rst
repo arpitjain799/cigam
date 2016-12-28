@@ -5,8 +5,8 @@ magic
 |unix_build| |windows_build| |CodeClimate| |coverage|
 
 
-.. |unix_build| image:: https://travis-ci.org/mikusjelly/magic.svg?branch=master
-    :target: https://travis-ci.org/mikusjelly/magic
+.. |unix_build| image:: https://travis-ci.org/mikusjelly/mini-magic.svg?branch=master
+    :target: https://travis-ci.org/mikusjelly/mini-magic
     :alt: Build status of the master branch on Mac/Linux
 
 .. |windows_build|  image:: https://ci.appveyor.com/api/projects/status/idv787m1gnfhg70k
