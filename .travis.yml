@@ -15,8 +15,8 @@ script:
 
 addons:
     code_climate:
-        repo_token: cefb790632e41dfd61e92750add14cd9797b932186d47dcb29ee0e682d4df2d7
+        repo_token: 83c06e3880ecf034a7ce9c5ce5eb56e33451efed9590e331a2f2b42e4acb32b3
 
 after_sucess:
   - coverage run test.py
-  - CODECLIMATE_REPO_TOKEN=cefb790632e41dfd61e92750add14cd9797b932186d47dcb29ee0e682d4df2d7 codeclimate-test-reporter
+  - CODECLIMATE_REPO_TOKEN=83c06e3880ecf034a7ce9c5ce5eb56e33451efed9590e331a2f2b42e4acb32b3 codeclimate-test-reporter
