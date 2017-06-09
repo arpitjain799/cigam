@@ -3,7 +3,7 @@
 
 if __name__ == "__main__":
 
-    with open('README.rst', 'r') as f:
+    with open('README.md', 'r') as f:
         long_description = f.read()
 
     setup(
