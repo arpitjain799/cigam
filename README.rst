@@ -1,5 +1,5 @@
 ===================
-magic
+cigam
 ===================
 
 |unix_build| |windows_build| |CodeClimate| |coverage|

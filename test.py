@@ -1,6 +1,6 @@
 import os
 import unittest
-from magic import Magic
+from cigam import Magic
 
 FILES_PATH = os.path.dirname(os.path.abspath(__file__)) + os.sep + 'files' + os.sep
 

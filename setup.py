@@ -7,10 +7,10 @@ if __name__ == "__main__":
         long_description = f.read()
 
     setup(
-        name="mini-magic",
-        version="0.0.4",
-        description=("mini-magic"),
-        py_modules=["magic"],
+        name="cigam",
+        version="0.0.1",
+        description=("magic"),
+        py_modules=["cigam"],
         keywords="",
         license="MIT",
         classifiers=[
@@ -22,6 +22,6 @@ if __name__ == "__main__":
 
         author="mikusjelly",
         author_email="mikusjelly@gmail.com",
-        url="https://github.com/mikusjelly/mini-magic",
+        url="https://github.com/mikusjelly/cigam",
 
     )
