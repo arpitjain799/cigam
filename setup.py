@@ -3,12 +3,9 @@
 
 if __name__ == "__main__":
 
-    with open('README.md', 'r') as f:
-        long_description = f.read()
-
     setup(
         name="cigam",
-        version="0.0.1",
+        version="0.0.2",
         description=("magic"),
         py_modules=["cigam"],
         keywords="",

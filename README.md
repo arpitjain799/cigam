@@ -11,8 +11,6 @@ Determine file type using magic numbers.
 pip install cigam
 ```
 
-
-
 ### Usage
 
 ```python
