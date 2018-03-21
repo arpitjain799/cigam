@@ -1,15 +1,17 @@
-﻿from setuptools import setup
+﻿from setuptools import setup, find_packages
 
 
 if __name__ == "__main__":
 
     setup(
         name="cigam",
-        version="0.0.2",
+        version="0.0.3",
         description=("magic"),
-        py_modules=["cigam"],
-        keywords="",
+        keywords="file type, file magic",
         license="MIT",
+
+        packages=find_packages(exclude=['files']),
+
         classifiers=[
             "Development Status :: 4 - Beta",
             "License :: OSI Approved :: MIT License",
