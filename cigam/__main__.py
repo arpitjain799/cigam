@@ -1,6 +1,5 @@
 import argparse
-from cigam import Magic
-
+from cigam import Magic, __VERSION__
 
 
 def main(args):
@@ -8,7 +7,6 @@ def main(args):
 
 
 if __name__ == '__main__':
-    __VERSION__ = '0.0.3'
 
     parser = argparse.ArgumentParser(prog='cigam', description=None)
     parser.add_argument('p', help='path')

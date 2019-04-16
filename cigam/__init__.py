@@ -1,5 +1,7 @@
 import binascii
 
+__VERSION__ = '0.0.4'
+
 
 class Match(object):
 
@@ -101,9 +103,11 @@ class Match(object):
             return ('.p7b', 'p7b', 'cert/p7b', 'PKCS7 File')
         return None
 
+
 class Magic(object):
 
     def __init__(self, param):
+        self.data = None
         if isinstance(param, bytes):
             self.data = param
         else:

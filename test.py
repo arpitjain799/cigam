@@ -48,5 +48,10 @@ class TestMagic(unittest.TestCase):
         m = Magic(FILES_PATH + 'test.txt')
         self.assertEqual(m.get_type(), 'txt')
 
+    def test_none(self):
+        m = Magic(FILES_PATH + 'test.none')
+        self.assertEqual(m.get_type(), 'txt')
+
+
 if __name__ == '__main__':
     unittest.main()

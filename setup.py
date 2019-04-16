@@ -1,11 +1,11 @@
 ﻿from setuptools import setup, find_packages
-
+from cigam import __VERSION__
 
 if __name__ == "__main__":
 
     setup(
         name="cigam",
-        version="0.0.3",
+        version=__VERSION__,
         description=("magic"),
         keywords="file type, file magic",
         license="MIT",
