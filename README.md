@@ -1,9 +1,9 @@
-cigam
+cigam ![Maintenance](https://img.shields.io/maintenance/no/2021?style=for-the-badge)
 ===================
 
-Determine file type using magic numbers.
+类型检测库，不再维护。
 
-
+后续将使用：https://gitee.com/kin9-0rz/pyftype
 
 ### Install
 
